@@ -1,0 +1,6 @@
+[Install]
+1. Place myvim directory under ${HOME}/.vim/
+   ${HOME}/.vim/myvim
+
+2. Add following line in ~/.vimrc, to load vim setting files under myvim
+runtime! myvim/*.vim
